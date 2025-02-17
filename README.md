@@ -1,1 +1,1 @@
-# HOTOSM-Street-Level
+# HOTOSM-Street-Level Imagery Analysis
