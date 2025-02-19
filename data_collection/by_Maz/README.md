@@ -44,7 +44,7 @@
 - Click on `Create Edge`
 - You should see an endpoint created
 
-<table style="width:100%" align="left">
+<table style="width:100%" align="center">
   <tr>
     <td><img src="https://i.imgur.com/oA5KpJ2.png" width="900px" height=200px/></td>
     </tr>
@@ -53,7 +53,7 @@
 - Copy that endpoint and paste it in as your `REDIRECT_URI` in your `.env` file 
 - and also on `https://www.mapillary.com/dashboard/developers`
 
-<table style="width:100%" align="left">
+<table style="width:100%" align="center">
   <tr>
     <td><img src="https://i.imgur.com/lSNruiY.png" width="900px" height=600px/></td>
     </tr>
@@ -62,7 +62,7 @@
 
 - Now Hit `Start a Tunnel`
 
-<table style="width:100%" align="left">
+<table style="width:100%" align="center">
   <tr>
     <td><img src="https://i.imgur.com/JdB4lJd.png" width="900px" height=300px/></td>
     </tr>
@@ -75,7 +75,7 @@
 - `ngrok tunnel --label edge=<your-edge-id> http://localhost:8080`
 - Run the command in another terminal
 
-<table style="width:100%" align="left">
+<table style="width:100%" align="center">
   <tr>
     <td><img src="https://i.imgur.com/qFEToBa.png" width="900px" height=320px/></td>
     </tr>
@@ -85,7 +85,7 @@
 
 - Now you can run your Python script (in another terminal) that interacts with the Mapillary API.
 - e.g `uv run python ./data_collection/by_Maz/get_data.py`
-<table style="width:100%" align="left">
+<table style="width:100%" align="center">
   <tr>
     <td><img src="https://i.imgur.com/KohcOUJ.png" width="900px" height=160px/></td>
     </tr>
@@ -95,7 +95,7 @@
 - Now in the browser you should see
 - Click Authorize if you are already logged in
 
-<table style="width:100%" align="left">
+<table style="width:100%" align="center">
   <tr>
     <td><img src="https://i.imgur.com/mB4wHYf.png" width="900px" height=350px/></td>
     </tr>
@@ -103,7 +103,7 @@
 
 - then copy the code and paste back in the terminal and hit enter
 
-<table style="width:100%" align="left">
+<table style="width:100%" align="center">
   <tr>
     <td><img src="https://i.imgur.com/2B17kMX.png" width="900px" height=270px/></td>
     </tr>
