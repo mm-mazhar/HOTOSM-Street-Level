@@ -1,4 +1,4 @@
-## Data Collection
+## Data Collection | Mapillary API OAuth2.0 Authentication Setup
 
 #### Setting Up Ngrok for Local Development with Mapillary API
 
