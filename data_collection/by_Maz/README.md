@@ -43,28 +43,70 @@
 - Select `HTTPS`
 - Click on `Create Edge`
 - You should see an endpoint created
-![alt text](https://i.imgur.com/oA5KpJ2.png)
-- Copy that endpoint and paste it in your `REDIRECT_URI` in your `.env` file and also on `https://www.mapillary.com/dashboard/developers`
-![Mapillary Dashboard](https://i.imgur.com/lSNruiY.png)
+
+<table style="width:100%" align="left">
+  <tr>
+    <td><img src="https://i.imgur.com/oA5KpJ2.png" width="900px" height=200px/></td>
+    </tr>
+</table>
+
+- Copy that endpoint and paste it in as your `REDIRECT_URI` in your `.env` file 
+- and also on `https://www.mapillary.com/dashboard/developers`
+
+<table style="width:100%" align="left">
+  <tr>
+    <td><img src="https://i.imgur.com/lSNruiY.png" width="900px" height=600px/></td>
+    </tr>
+</table>
+
+
 - Now Hit `Start a Tunnel`
-![Mapillary Dashboard](https://i.imgur.com/JdB4lJd.png)
+
+<table style="width:100%" align="left">
+  <tr>
+    <td><img src="https://i.imgur.com/JdB4lJd.png" width="900px" height=300px/></td>
+    </tr>
+</table>
+
 - Copy and Paste the command in your terminal 
 - Note: don't forget to replace `80` with `8080` as the port number
 - e.g. You copied `ngrok tunnel --label edge=<your-edge-id> http://localhost:80`
 - Put `8080` instead of `80` 
 - `ngrok tunnel --label edge=<your-edge-id> http://localhost:8080`
-![Mapillary Dashboard](https://i.imgur.com/qFEToBa.png)
-
 - Run the command in another terminal
+
+<table style="width:100%" align="left">
+  <tr>
+    <td><img src="https://i.imgur.com/qFEToBa.png" width="900px" height=320px/></td>
+    </tr>
+</table>
 
 5. Run the Python Script
 
-- Now you can run your Python script that interacts with the Mapillary API. It should be able to receive the authorization code from the Mapillary redirect.
+- Now you can run your Python script (in another terminal) that interacts with the Mapillary API.
 - e.g `uv run python ./data_collection/by_Maz/get_data.py`
-![Mapillary Dashboard](https://i.imgur.com/KohcOUJ.png)
+<table style="width:100%" align="left">
+  <tr>
+    <td><img src="https://i.imgur.com/KohcOUJ.png" width="900px" height=160px/></td>
+    </tr>
+</table>
+
+- It should be able to receive the authorization code from the Mapillary redirect.
 - Now in the browser you should see
-![Mapillary Dashboard](https://i.imgur.com/mB4wHYf.png)
-- Click Authorize if you are already logged in and then copy the code and paste back in the terminal and hit enter
-![Mapillary Dashboard](https://i.imgur.com/2B17kMX.png)
+- Click Authorize if you are already logged in
+
+<table style="width:100%" align="left">
+  <tr>
+    <td><img src="https://i.imgur.com/mB4wHYf.png" width="900px" height=350px/></td>
+    </tr>
+</table>
+
+- then copy the code and paste back in the terminal and hit enter
+
+<table style="width:100%" align="left">
+  <tr>
+    <td><img src="https://i.imgur.com/2B17kMX.png" width="900px" height=270px/></td>
+    </tr>
+</table>
 - Your script should start downloading images
 
